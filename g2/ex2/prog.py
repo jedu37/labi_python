@@ -15,12 +15,14 @@ def main():
     if not os.path.isfile(fname):
         sys.exit("Não é ficheiro")
 
-    f = open(fname,"r")
+    f = open(fname,"rb")
+    buffer = f.read(512)
 
     h = hashlib.sha1()
 
-    for line in f:
-        h.update(line.encode("utf-8"))
+    while len(buffer) > 0:
+        h.update(buffer)
+        buffer = f.read(512)
     
     f.close()
 

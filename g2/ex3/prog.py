@@ -1,4 +1,5 @@
-import hashlib, sys, os.path
+import sys, os.path
+from Crypto.Hash import SHA256
 
 def main():
     if len(sys.argv) < 2:
@@ -14,13 +15,26 @@ def main():
 
     if not os.path.isfile(fname):
         sys.exit("Não é ficheiro")
+    
+    g = open(fname,"r")
 
-    f = open(fname,"r")
+    d = SHA256.new()
 
-    h = hashlib.sha1()
+    for line in g:
+        d.update(line.encode("utf-8"))
+    
+    g.close()
 
-    for line in f:
-        h.update(line.encode("utf-8"))
+    print(d.hexdigest())
+
+    f = open(fname,"rb")
+    buffer = f.read(512)
+
+    h = SHA256.new()
+
+    while len(buffer) > 0:
+        h.update(buffer)
+        buffer = f.read(512)
     
     f.close()
 
