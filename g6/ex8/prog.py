@@ -3,7 +3,10 @@ import cherrypy
 class Actions(object):
     @cherrypy.expose
     def doLogin(self, username=None, password=None):
-        return "TODO: verificar as credenciais do utilizador " + username
+        if (username == "jedu" and password=="yikes"):
+            return "Login efetuado com sucesso"
+        else:
+            return "Login Failed"
 
 class Root(object):
 
