@@ -1,3 +1,18 @@
 Resolução do guião:
 Cifras e Criptografia
 https://elearning.ua.pt/pluginfile.php/189572/mod_resource/content/14/guide-13-crypto.pdf
+
+CheckList
+1-Done
+2-Done
+3-Done
+4-Done
+5-Done
+6-Done
+7-Done
+8-Done
+9-Done
+10-Done
+11-Not Functional
+12-
+13-
