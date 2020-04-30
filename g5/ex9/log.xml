@@ -1,0 +1,11 @@
+<stats>
+  <value time="1588257625">1<cpu>6.900000</cpu><ram>8383033344.000000</ram><net>sent:0,recv:0</net></value>
+  <value time="1588257627">2<cpu>4.100000</cpu><ram>8385892352.000000</ram><net>sent:0,recv:0</net></value>
+  <value time="1588257629">3<cpu>6.600000</cpu><ram>8388882432.000000</ram><net>sent:0,recv:0</net></value>
+  <value time="1588257631">4<cpu>11.600000</cpu><ram>8403935232.000000</ram><net>sent:0,recv:0</net></value>
+  <value time="1588257633">5<cpu>8.100000</cpu><ram>8402841600.000000</ram><net>sent:0,recv:0</net></value>
+  <value time="1588257635">6<cpu>4.100000</cpu><ram>8403570688.000000</ram><net>sent:0,recv:0</net></value>
+  <value time="1588257637">7<cpu>3.700000</cpu><ram>8403034112.000000</ram><net>sent:0,recv:0</net></value>
+  <value time="1588257639">8<cpu>4.300000</cpu><ram>8403189760.000000</ram><net>sent:0,recv:0</net></value>
+  <value time="1588257641">9<cpu>4.800000</cpu><ram>8412381184.000000</ram><net>sent:0,recv:0</net></value>
+</stats>
