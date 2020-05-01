@@ -1,5 +1,5 @@
 Resolução do guião:
-Progamação em Python
+Programação em Python
 https://elearning.ua.pt/pluginfile.php/186974/mod_resource/content/17/guide-12-python.pdf 
 
 Checklist:
