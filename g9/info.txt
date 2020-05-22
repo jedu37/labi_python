@@ -3,12 +3,12 @@ Informação Visual
 https://elearning.ua.pt/pluginfile.php/203698/mod_resource/content/12/guide-21-images.pdf
 
 Checklist:
-1-
-2-
-3-
-4-
-5-
-6-
+1- Done
+2- Done
+3- Done
+4- Not Counting Pixels
+5- Done
+6- Done
 7-
 8-
 9-
@@ -23,5 +23,3 @@ Checklist:
 18-
 19-
 20-
-21-
-22-
