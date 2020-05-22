@@ -3,23 +3,23 @@ Informação Visual
 https://elearning.ua.pt/pluginfile.php/203698/mod_resource/content/12/guide-21-images.pdf
 
 Checklist:
-1- Done
-2- Done
-3- Done
-4- Not Counting Pixels
-5- Done
-6- Done
-7- Done
-8- Done
-9- Done
-10- Done
-11- Done
-12- Done
-13- Done
-14- Done
-15- Done
-16- Done
-17- Done
-18-
-19-
-20-
+1 - Done
+2 - Done
+3 - Done
+4 - Not Counting Pixels
+5 - Done
+6 - Done
+7 - Done
+8 - Done
+9 - Done
+10 - Done
+11 - Done
+12 - Done
+13 - Done
+14 - Done
+15 - Done
+16 - Done
+17 - Done
+18 - Done
+19 - Done
+20 - Done
