@@ -39,6 +39,17 @@ class HelloWorld(object):
     def dst(self, lat, lon):
         cherrypy.response.headers["Content-Type"] = "application/json"
         return distance(float(lat), float(lon)).encode("utf-8")
+    
+    @cherrypy.expose
+    def upload(self, myFile):
+        fo = open(os.getcwd()+ '/uploads/' + myFile.filename, 'wb')
+        while True:
+            data = myFile.file.read(8192)
+            if not data:
+                break
+            fo.write(data)
+        fo.close()
+
 
 cherrypy.server.socket_port = 8080
 cherrypy.server.socket_host = "0.0.0.0"

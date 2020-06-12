@@ -10,8 +10,8 @@ Checklist:
 5 - Skipped
 6 - Done
 7 - Done
-8 - 
-9 - 
-10 - 
-11 - 
+8 - Done - I guess
+9 - Done
+10 - Done
+11 - Done
 12 - 
